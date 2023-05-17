@@ -28,7 +28,7 @@ class Main {
     
     try {
       Service s = new Service();
-     // s.addStudent(new Student(""+Name ""+Age));
+      s.addStudent(new Student(Name, Age));
       
 
       var students = s.getStudents();
